@@ -5,7 +5,7 @@
         "expiry_date_dateint": "DateTime",
         "given_names": "Text",
         "family_name": "Text",
-        "middle_name": "Text",
+        "middle_name": "Text"
       },
       "classification": "",
       "digest": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",

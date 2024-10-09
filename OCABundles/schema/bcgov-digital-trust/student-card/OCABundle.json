@@ -2,7 +2,7 @@
   {
     "capture_base": {
       "attributes": {
-        "expiry_date": "DateTime",
+        "expiry_date_dateint": "DateTime",
         "given_names": "Text",
         "family_name": "Text"
       },
@@ -17,7 +17,7 @@
     "overlays": [
       {
         "attribute_character_encoding": {
-          "expiry_date": "utf-8",
+          "expiry_date_dateint": "utf-8",
           "given_names": "utf-8",
           "family_name": "utf-8"
         },
@@ -29,9 +29,9 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "expiry_date": "ID Expiry Date",
-          "given_names": "Student First Name",
-          "family_name": "Student Last Name"
+          "expiry_date_dateint": "ID Expiry Date",
+          "given_names": "First Name",
+          "family_name": "Last Name"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "category_labels": {},
@@ -41,7 +41,7 @@
       },
       {
         "attribute_information": {
-          "expiry_date": "The expiry date of the Best BC College student ID card.",
+          "expiry_date_dateint": "The expiry date of the Best BC College student ID card.",
           "given_names": "The first name of the Best BC College student.",
           "family_name": "The last name of the Best BC College student."
         },
@@ -53,7 +53,7 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "expiry_date": "Date d'expiration",
+          "expiry_date_dateint": "Date d'expiration",
           "given_names": "Prénom de l'étudiant",
           "family_name": "Nom de famille de l'étudiant"
         },
@@ -65,7 +65,7 @@
       },
       {
         "attribute_information": {
-          "expiry_date": "La date d'expiration de la carte d'étudiant.",
+          "expiry_date_dateint": "La date d'expiration de la carte d'étudiant.",
           "given_names": "Le prénom du titulaire de la carte d'étudiant",
           "family_name": "Le nom (de famille) du titulaire de la carte d'étudiant."
         },
@@ -76,7 +76,7 @@
       },
       {
         "attribute_formats": {
-          "expiry_date": "YYYYMMDD"
+          "expiry_date_dateint": "YYYYMMDD"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EVKeZx9XY2URist1gx-7XsuwceDuaUv-EIqxfh3UWoTk",
@@ -84,7 +84,7 @@
       },
       {
         "attribute_standards": {
-          "expiry_date": "urn:iso:std:iso:1989"
+          "expiry_date_dateint": "urn:iso:std:iso:1989"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EBmVnxGhcxhC2yrJZA_8ZLsrH_MWA6Bh-0la39e9jg2g",
@@ -124,7 +124,7 @@
         "primary_background_color": "#32674e",
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",
-        "expiry_date_attribute": "expiry_date",
+        "expiry_date_attribute": "expiry_date_dateint",
         "primary_attribute": "",
         "secondary_attribute": "",
         "type": "aries/overlays/branding/1.0"

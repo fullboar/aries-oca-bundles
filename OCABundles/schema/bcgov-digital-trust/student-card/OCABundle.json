@@ -5,14 +5,20 @@
         "expiry_date_dateint": "DateTime",
         "given_names": "Text",
         "family_name": "Text",
-        "middle_name": "Text"
+        "middle_name": "Text",
+        "locality": "Text",
+        "picture": "Binary",
+        "postal_code": "Text",
+        "region": "Text",
+        "street_address": "Text"
       },
       "classification": "",
       "digest": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
       "flagged_attributes": [
         "family_name",
         "given_names",
-        "middle_name"
+        "middle_name",
+        "picture"
       ],
       "type": "spec/capture_base/1.0"
     },
@@ -22,7 +28,12 @@
           "expiry_date_dateint": "utf-8",
           "given_names": "utf-8",
           "family_name": "utf-8",
-          "middle_name": "utf-8"
+          "middle_name": "utf-8",
+          "locality": "utf-8",
+          "picture": "base64",
+          "postal_code": "utf-8",
+          "region": "utf-8",
+          "street_address": "utf-8"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "default_character_encoding": "utf-8",
@@ -32,10 +43,15 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "expiry_date_dateint": "ID Expiry Date",
+          "expiry_date_dateint": "Expiry Date",
           "given_names": "First Name",
           "family_name": "Last Name",
-          "middle_name": "Middle Name"
+          "middle_name": "Middle Name",
+          "locality": "Locality",
+          "picture": "Photo",
+          "postal_code": "Postal Code",
+          "region": "Region",
+          "street_address": "Street Address"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "category_labels": {},
@@ -48,7 +64,12 @@
           "expiry_date_dateint": "The expiry date of the Best BC College student ID card.",
           "given_names": "The first name of the Best BC College student.",
           "family_name": "The last name of the Best BC College student.",
-          "middle_name": "The middle name of the Best BC College student."
+          "middle_name": "The middle name of the Best BC College student.",
+          "locality": "The locality of the Best BC College student.",
+          "picture": "  A photo of the Best BC College student.",
+          "postal_code": "The postal code of the Best BC College student.",
+          "region": "The region of the Best BC College student.",
+          "street_address": "The street address of the Best BC College student."
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "Emn1K6J6RaTBWEjhjTDj3WYErRvleBKATs6adzcqPTc8",
@@ -61,7 +82,12 @@
           "expiry_date_dateint": "Date d'expiration",
           "given_names": "Prénom de l'étudiant",
           "family_name": "Nom de famille de l'étudiant",
-          "middle_name": "Deuxième prénom de l'étudiant"
+          "middle_name": "Deuxième prénom de l'étudiant",
+          "locality": "Localité",
+          "picture": "Photo",
+          "postal_code": "Code postal",
+          "region": "Région",
+          "street_address": "Adresse"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "category_labels": {},
@@ -74,7 +100,12 @@
           "expiry_date_dateint": "La date d'expiration de la carte d'étudiant.",
           "given_names": "Le prénom du titulaire de la carte d'étudiant",
           "family_name": "Le nom (de famille) du titulaire de la carte d'étudiant.",
-          "middle_name": "Le deuxième prénom du titulaire de la carte d'étudiant."
+          "middle_name": "Le deuxième prénom du titulaire de la carte d'étudiant.",
+          "locality": "La localité du titulaire de la carte d'étudiant.",
+          "picture": "Une photo du titulaire de la carte d'étudiant.",
+          "postal_code": "Le code postal du titulaire de la carte d'étudiant.",
+          "region": "La région du titulaire de la carte d'étudiant.",
+          "street_address": "L'adresse du titulaire de la carte d'étudiant."
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EGn9GBdK0LDKLt7uizMpMKXAQU9KQ1XhApLBM3NT9GOY",
@@ -83,7 +114,8 @@
       },
       {
         "attribute_formats": {
-          "expiry_date_dateint": "YYYYMMDD"
+          "expiry_date_dateint": "YYYYMMDD",
+          "picture": "image/jpeg"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EVKeZx9XY2URist1gx-7XsuwceDuaUv-EIqxfh3UWoTk",

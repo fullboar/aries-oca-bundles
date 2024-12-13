@@ -48,8 +48,8 @@
         "attribute_categories": [],
         "attribute_labels": {
           "expiry_date_dateint": "Expiry Date",
-          "personal_health_card_expiry_date_dateint": "Personal Health Card Expiry Date",
-          "personal_health_number": "Personal Health Number",
+          "personal_health_card_expiry_date_dateint": "Health Card Expiry Date",
+          "personal_health_number": "Health Number",
           "given_names": "First Name",
           "family_name": "Last Name",
           "middle_name": "Middle Name",

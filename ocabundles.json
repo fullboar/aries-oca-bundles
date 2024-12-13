@@ -139,6 +139,10 @@
       "path": "OCABundles/schema/bcgov-digital-trust/student-card/OCABundle.json",
       "sha256": "e65625acad0f1baab8e05b6cd1a5619b22e1f20cb47768616680a0fb2e8dc21d"
    },
+   "5tSFin3rU99BXvZRmp1Usi:2:employee_card:1.3": {
+      "path": "OCABundles/schema/bcgov-digital-trust/student-card/OCABundle.json",
+      "sha256": "e65625acad0f1baab8e05b6cd1a5619b22e1f20cb47768616680a0fb2e8dc21d"
+   },
    "EmX9iHJrL7R6MBLH38QYp:3:CL:1560:transcriber": {
       "path": "OCABundles/schema/bcgov-digital-trust/transcriber-contractor/OCABundle.json",
       "sha256": "44d89d6c7ced85ce3c8fc02323553a138445368911dcd6fb85e2aaeefea05068"

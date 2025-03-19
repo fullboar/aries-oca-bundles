@@ -2,9 +2,9 @@
   {
     "capture_base": {
       "attributes": {
+        "birthdate_dateint": "DateTime",
         "expiry_date_dateint": "DateTime",
-        "personal_health_card_expiry_date_dateint": "DateTime",
-        "personal_health_number": "Text",
+        "property_tax_id": "Text",
         "given_names": "Text",
         "family_name": "Text",
         "middle_name": "Text",
@@ -28,8 +28,8 @@
       {
         "attribute_character_encoding": {
           "expiry_date_dateint": "utf-8",
-          "personal_health_card_expiry_date_dateint": "utf-8",
-          "personal_health_number": "utf-8",
+          "birthdate_dateint": "utf-8",
+          "property_tax_id": "utf-8",
           "given_names": "utf-8",
           "family_name": "utf-8",
           "middle_name": "utf-8",
@@ -48,8 +48,8 @@
         "attribute_categories": [],
         "attribute_labels": {
           "expiry_date_dateint": "Expiry Date",
-          "personal_health_card_expiry_date_dateint": "Health Card Expiry Date",
-          "personal_health_number": "Health Number",
+          "birthdate_dateint": "Birth Date",
+          "property_tax_id": "Property ID Number",
           "given_names": "First Name",
           "family_name": "Last Name",
           "middle_name": "Middle Name",
@@ -68,8 +68,8 @@
       {
         "attribute_information": {
           "expiry_date_dateint": "The expiry date of the Best BC College student ID card.",
-          "personal_health_card_expiry_date_dateint": "The expiry date of the Personal Health Card Best BC College student ID card.",
-          "personal_health_number": "The Personal Health Number of the Best BC College student.",
+          "birthdate_dateint": "The birth date of the Best BC College student.",
+          "property_tax_id": "The Personal Health Number of the Best BC College student.",
           "given_names": "The first name of the Best BC College student.",
           "family_name": "The last name of the Best BC College student.",
           "middle_name": "The middle name of the Best BC College student.",
@@ -88,8 +88,8 @@
         "attribute_categories": [],
         "attribute_labels": {
           "expiry_date_dateint": "Date d'expiration",
-          "personal_health_card_expiry_date_dateint": "Date d'expiration de la carte d'assurance maladie",
-          "personal_health_number": "Numéro d'assurance maladie",
+          "birthdate_dateint": "Date de naissance",
+          "property_tax_id": "Numéro d'assurance maladie",
           "given_names": "Prénom de l'étudiant",
           "family_name": "Nom de famille de l'étudiant",
           "middle_name": "Deuxième prénom de l'étudiant",
@@ -108,8 +108,8 @@
       {
         "attribute_information": {
           "expiry_date_dateint": "La date d'expiration de la carte d'étudiant.",
-          "personal_health_card_expiry_date_dateint": "La date d'expiration de la carte d'étudiant de la carte d'assurance maladie.",
-          "personal_health_number": "Le numéro d'assurance maladie du titulaire de la carte d'étudiant.",
+          "birthdate_dateint": "La date",
+          "property_tax_id": "Le numéro d'assurance maladie du titulaire de la carte d'étudiant.",
           "given_names": "Le prénom du titulaire de la carte d'étudiant",
           "family_name": "Le nom (de famille) du titulaire de la carte d'étudiant.",
           "middle_name": "Le deuxième prénom du titulaire de la carte d'étudiant.",
@@ -127,7 +127,7 @@
       {
         "attribute_formats": {
           "expiry_date_dateint": "YYYYMMDD",
-          "personal_health_card_expiry_date_dateint": "YYYYMMDD",
+          "birthdate_dateint": "YYYYMMDD",
           "picture": "image/jpeg"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
@@ -137,7 +137,7 @@
       {
         "attribute_standards": {
           "expiry_date_dateint": "urn:iso:std:iso:1989",
-          "personal_health_card_expiry_date_dateint": "urn:iso:std:iso:1989"
+          "birthdate_dateint": "urn:iso:std:iso:1989"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EBmVnxGhcxhC2yrJZA_8ZLsrH_MWA6Bh-0la39e9jg2g",

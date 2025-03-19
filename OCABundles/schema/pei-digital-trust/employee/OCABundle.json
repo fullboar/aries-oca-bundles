@@ -129,7 +129,7 @@
       },
       {
         "attribute_standards": {
-          "expiry_date_dateint": "urn:iso:std:iso:1989",
+          "expiry_date_dateint": "urn:iso:std:iso:1989"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EBmVnxGhcxhC2yrJZA_8ZLsrH_MWA6Bh-0la39e9jg2g",

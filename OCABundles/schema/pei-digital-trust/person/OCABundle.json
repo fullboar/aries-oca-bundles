@@ -179,9 +179,9 @@
         "type": "spec/overlays/meta/1.0"
       },
       {
-        "logo": "https://fullboar.github.io/aries-oca-bundles/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-logo.png",
-        "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-background-image-slice.jpg",
-        "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/bcgov-digital-trust/student-card/best-bc-background-image.jpg",
+        "logo": "https://fullboar.github.io/aries-oca-bundles/OCABundles/schema/pei-digital-trust/person/best-bc-logo.png",
+        "background_image_slice": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/pei-digital-trust/person/best-bc-background-image-slice.jpg",
+        "background_image": "https://raw.githubusercontent.com/bcgov/aries-oca-bundles/main/OCABundles/schema/pei-digital-trust/person/best-bc-background-image.jpg",
         "primary_background_color": "#67324E",
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EBQbQEV6qSEGDzGLj1CqT4e6yzESjPimF-Swmyltw5jU",

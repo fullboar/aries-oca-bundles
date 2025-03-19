@@ -2,6 +2,7 @@
   {
     "capture_base": {
       "attributes": {
+        "birthdate_dateint": "DateTime",
         "expiry_date_dateint": "DateTime",
         "personal_health_card_expiry_date_dateint": "DateTime",
         "personal_health_number": "Text",
@@ -28,6 +29,7 @@
       {
         "attribute_character_encoding": {
           "expiry_date_dateint": "utf-8",
+          "birthdate_dateint": "utf-8",
           "personal_health_card_expiry_date_dateint": "utf-8",
           "personal_health_number": "utf-8",
           "given_names": "utf-8",
@@ -48,6 +50,7 @@
         "attribute_categories": [],
         "attribute_labels": {
           "expiry_date_dateint": "Expiry Date",
+          "birthdate_dateint": "Birth Date",
           "personal_health_card_expiry_date_dateint": "Health Card Expiry Date",
           "personal_health_number": "Health Number",
           "given_names": "First Name",
@@ -68,6 +71,7 @@
       {
         "attribute_information": {
           "expiry_date_dateint": "The expiry date of the Best BC College student ID card.",
+          "birthdate_dateint": "The birth date of the Best BC College student.",
           "personal_health_card_expiry_date_dateint": "The expiry date of the Personal Health Card Best BC College student ID card.",
           "personal_health_number": "The Personal Health Number of the Best BC College student.",
           "given_names": "The first name of the Best BC College student.",
@@ -88,6 +92,7 @@
         "attribute_categories": [],
         "attribute_labels": {
           "expiry_date_dateint": "Date d'expiration",
+          "birthdate_dateint": "Date de naissance",
           "personal_health_card_expiry_date_dateint": "Date d'expiration de la carte d'assurance maladie",
           "personal_health_number": "Numéro d'assurance maladie",
           "given_names": "Prénom de l'étudiant",
@@ -108,6 +113,7 @@
       {
         "attribute_information": {
           "expiry_date_dateint": "La date d'expiration de la carte d'étudiant.",
+          "birthdate_dateint": "La date de naissance de l'étudiant du Best BC College.",
           "personal_health_card_expiry_date_dateint": "La date d'expiration de la carte d'étudiant de la carte d'assurance maladie.",
           "personal_health_number": "Le numéro d'assurance maladie du titulaire de la carte d'étudiant.",
           "given_names": "Le prénom du titulaire de la carte d'étudiant",
@@ -127,6 +133,7 @@
       {
         "attribute_formats": {
           "expiry_date_dateint": "YYYYMMDD",
+          "birthdate_dateint": "YYYYMMDD",
           "personal_health_card_expiry_date_dateint": "YYYYMMDD",
           "picture": "image/jpeg"
         },
@@ -137,6 +144,7 @@
       {
         "attribute_standards": {
           "expiry_date_dateint": "urn:iso:std:iso:1989",
+          "birthdate_dateint": "urn:iso:std:iso:1989",
           "personal_health_card_expiry_date_dateint": "urn:iso:std:iso:1989"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",

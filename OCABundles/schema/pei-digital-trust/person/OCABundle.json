@@ -49,17 +49,17 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "expiry_date_dateint": "Expiry Date",
-          "birthdate_dateint": "Birth Date",
+          "expiry_date_dateint": "Credential Expiry Date",
+          "birthdate_dateint": "Birthdate",
           "personal_health_card_expiry_date_dateint": "Health Card Expiry Date",
-          "personal_health_number": "Health Number",
+          "personal_health_number": "Personal Health Number",
           "given_names": "First Name",
           "family_name": "Last Name",
           "middle_name": "Middle Name",
-          "locality": "Locality",
-          "picture": "Photo",
+          "locality": "City",
+          "picture": "Image",
           "postal_code": "Postal Code",
-          "region": "Region",
+          "region": "Province",
           "street_address": "Street Address"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",

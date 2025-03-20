@@ -3,6 +3,7 @@
     "capture_base": {
       "attributes": {
         "expiry_date_dateint": "DateTime",
+        "birth_date": "DateTime",
         "employee_id": "Text",
         "given_names": "Text",
         "family_name": "Text",
@@ -27,6 +28,7 @@
       {
         "attribute_character_encoding": {
           "expiry_date_dateint": "utf-8",
+          "birth_date": "utf-8",
           "employee_id": "utf-8",
           "given_names": "utf-8",
           "family_name": "utf-8",
@@ -45,15 +47,16 @@
       {
         "attribute_categories": [],
         "attribute_labels": {
-          "expiry_date_dateint": "Expiry Date",
-          "employee_id": "Health Number",
+          "expiry_date_dateint": "Credential Expiry Date",
+          "birth_date": "Birthdate",
+          "employee_id": "Employee ID",
           "given_names": "First Name",
           "family_name": "Last Name",
           "middle_name": "Middle Name",
-          "locality": "Locality",
-          "picture": "Photo",
+          "locality": "City",
+          "picture": "Image",
           "postal_code": "Postal Code",
-          "region": "Region",
+          "region": "Province",
           "street_address": "Street Address"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
@@ -65,6 +68,7 @@
       {
         "attribute_information": {
           "expiry_date_dateint": "The expiry date of the Best BC College student ID card.",
+          "birth_date": "The birth date of the Best BC College student.",
           "employee_id": "The Personal Health Number of the Best BC College student.",
           "given_names": "The first name of the Best BC College student.",
           "family_name": "The last name of the Best BC College student.",
@@ -84,6 +88,7 @@
         "attribute_categories": [],
         "attribute_labels": {
           "expiry_date_dateint": "Date d'expiration",
+          "birth_date": "Date de naissance",
           "employee_id": "Numéro d'assurance maladie",
           "given_names": "Prénom de l'étudiant",
           "family_name": "Nom de famille de l'étudiant",
@@ -103,6 +108,7 @@
       {
         "attribute_information": {
           "expiry_date_dateint": "La date d'expiration de la carte d'étudiant.",
+          "birth_date": "La date de naissance du titulaire de la carte d'étudiant.",
           "employee_id": "Le numéro d'assurance maladie du titulaire de la carte d'étudiant.",
           "given_names": "Le prénom du titulaire de la carte d'étudiant",
           "family_name": "Le nom (de famille) du titulaire de la carte d'étudiant.",
@@ -121,6 +127,7 @@
       {
         "attribute_formats": {
           "expiry_date_dateint": "YYYYMMDD",
+          "birth_date": "YYYYMMDD",
           "picture": "image/jpeg"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
@@ -129,7 +136,8 @@
       },
       {
         "attribute_standards": {
-          "expiry_date_dateint": "urn:iso:std:iso:1989"
+          "expiry_date_dateint": "urn:iso:std:iso:1989",
+          "birth_date": "urn:iso:std:iso:1989"
         },
         "capture_base": "E75sopl65qnoZRwjQQ0FjWGemLlOXcXtanhScZ2CloJY",
         "digest": "EBmVnxGhcxhC2yrJZA_8ZLsrH_MWA6Bh-0la39e9jg2g",
